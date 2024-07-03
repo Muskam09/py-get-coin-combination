@@ -15,6 +15,7 @@ from app.main import get_coin_combination
 def test_get_coin_combination(coins: int, result: list) -> None:
     assert get_coin_combination(coins) == result
 
+
 @pytest.mark.parametrize(
     "coins, expected_error",
     [
